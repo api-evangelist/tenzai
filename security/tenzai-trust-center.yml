@@ -1,0 +1,29 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://trust.tenzai.com/
+url: https://trust.tenzai.com/
+certifications:
+- SOC 2 Type 1
+documents:
+- Privacy Policy
+- Terms of Service
+- Subprocessors
+- SOC 2 Type 1 Report
+- Network Diagram
+- Incident Response Policy
+- Disaster Recovery Plan
+- Logging and Monitoring Policy
+- Data Protection Policy
+subprocessors:
+- Amazon Web Services
+- Google Workspace
+- Datadog
+- HubSpot
+- Groundcover
+evidence:
+- source: https://trust.tenzai.com/
+  keywords:
+  - soc 2 type 1
+  - trust center
+  verified: fetched 2026-07-21

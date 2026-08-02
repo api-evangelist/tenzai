@@ -1,8 +1,30 @@
 aid: tenzai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tenzai.png
 name: Tenzai
-description: Tenzai is a company surfaced as a portfolio company of battery-ventures, greylock, lux-capital
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Tenzai is an AI-native cybersecurity company building an autonomous, agentic AI
+  "hacker" for the enterprise. Its AI agents continuously discover, chain, and exploit
+  hard-to-find vulnerabilities across enterprise software and validate them in production
+  the way a human red team would, aiming to bring nation-grade offensive security to
+  every engineering organization. Founded in 2025 by Guardicore founders Pavel Gurvich
+  and Ariel Zeitlin together with Ofri Ziv, Itamar Tal, and Aner Mazur, the Tel Aviv-based
+  company launched out of stealth in November 2025 with a $75M seed round (one of the
+  largest in cybersecurity) led by Greylock Partners, Battery Ventures, and Lux Capital
+  at a reported $330M valuation. Tenzai targets the penetration-testing market with
+  continuous, AI-driven offensive validation. As of this profile the company exposes a
+  marketing site, a research blog, careers, and a SOC 2 Type 1 trust center, but no
+  public developer or API surface.
 url: https://raw.githubusercontent.com/api-evangelist/tenzai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +34,36 @@ x-backed-by:
 - lux-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-headquarters: Tel Aviv, Israel
+x-founded: '2025'
+x-founders:
+- Pavel Gurvich
+- Ariel Zeitlin
+- Ofri Ziv
+- Itamar Tal
+- Aner Mazur
+x-funding:
+  stage: seed
+  amount_usd: 75000000
+  valuation_usd: 330000000
+  announced: '2025-11-11'
+  investors:
+  - Greylock Partners
+  - Battery Ventures
+  - Lux Capital
+  - Swish Ventures
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Cybersecurity
+- Security
+- Artificial Intelligence
+- Penetration Testing
+- Application Security
+- Agentic AI
+- Offensive Security
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +73,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.tenzai.com/
+- type: Blog
+  url: https://blog.tenzai.com/
+- type: Careers
+  url: https://www.tenzai.com/careers
+- type: TrustCenter
+  url: https://trust.tenzai.com/
+- type: Compliance
+  url: https://trust.tenzai.com/
+- type: DomainSecurity
+  url: security/tenzai-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
